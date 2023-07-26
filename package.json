@@ -1,0 +1,7 @@
+{
+  "name": "kmedia",
+  "version": "1.0.0",
+  "description": "KIQ Media Utilities",
+  "main": "src/index.js",
+  "license": "MIT"
+}
