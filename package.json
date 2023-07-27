@@ -3,5 +3,18 @@
   "version": "1.0.0",
   "description": "KIQ Media Utilities",
   "main": "src/index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ./"
+  },
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "gm": "^1.25.0",
+    "mime": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "fs": "^0.0.1-security",
+    "typescript": "^5.1.6"
+  }
 }
